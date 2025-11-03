@@ -66,6 +66,7 @@ header {
     padding: 30px;
     color: var(--main-color);
     background-image: url(images/header-img.png);
+    background-position: center;
     background-size: cover;
     /* background-image: url('Images/ChatGPT_Image_15_okt_2025_10_01_53.png');
     background-size: cover;
