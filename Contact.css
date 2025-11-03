@@ -1,0 +1,130 @@
+:root {
+    --main-color: #fbebd6;
+    --accent-color: #511552;
+    --accent-color-light: #c797b6;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--main-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+}
+
+nav img {
+    height: 30px;
+}
+
+.pullout-img {
+    padding: 5px 0px;
+}
+
+header {
+    border-top: var(--accent-color) 2px solid;
+    text-align: center;
+    padding: 30px;
+    color: var(--main-color);
+    background-image: url(../images/header-img.png);
+    background-size: cover;
+    /* background-image: url('Images/ChatGPT_Image_15_okt_2025_10_01_53.png');
+    background-size: cover;
+    background-position: center; */
+    border-bottom: 2px solid var(--accent-color);
+}
+header div {
+    backdrop-filter: blur(10px) brightness(0.9);
+    border: var(--main-color) 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* .header-text { */
+    /* backdrop-filter: blur(5px) brightness(0.9);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--main-color);
+} */
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.form-field {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.form-field label {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.form-field input{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.selection {
+    padding-bottom: 5px;
+}
+
+.terms-and-conditions {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+:user-invalid {
+    border: 2px solid red;
+}
+
+:user-valid {
+    border: 2px solid green;
+}
+
+.submit-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: var(--accent-color);
+    background-color: var(--main-color);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: var(--accent-color) 5px solid;
+}
+footer img {
+    height: 40px;
+}
+.footer-next {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-next p {
+    border-right: var(--accent-color) 1px solid;
+    padding-right: 10px;
+}

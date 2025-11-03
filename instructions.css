@@ -1,0 +1,52 @@
+:root {
+    --main-color: #fbebd6;
+    --accent-color: #511552;
+    --accent-color-light: #d390b1;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--main-color);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+}
+nav img {
+    height: 30px;
+}
+.pullout-img {
+    padding: 5px 0px;
+}
+header {
+    text-align: center;
+    border-block: var(--accent-color) 5px solid;
+    padding: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+main img {
+    width: 100%;
+    object-fit: cover;
+}
+.step-1-3-5-7 {
+    display: flex;
+    gap: 15px;
+    padding: 20px 25px;
+}
+.step-2-4-6-8 {
+    display: flex;
+    gap: 15px;
+    padding: 2cqmax 25px;
+}
+section div {
+    flex: 1;
+}

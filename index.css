@@ -1,0 +1,119 @@
+:root {
+    --main-color: #fbebd6;
+    --accent-color: #511552;
+    --accent-color-light: #d390b1;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+}
+nav img {
+    height: 30px;
+}
+.pullout-img {
+    padding: 5px 0px;
+}
+header{
+    background-image: url(images/header-img.png);
+    padding: 70px 10%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+header div {
+    padding: 20px 10px;
+    backdrop-filter: blur(10px) brightness(0.9);
+    border-radius: 10px;
+    border: var(--main-color) 2px solid;
+    color: var(--main-color);
+}
+main {
+    background-color: var(--main-color);
+    padding: 25px;
+}
+.our-products {
+    margin-left: 20px;
+    color: black;
+}
+.our-products-section img {
+    width: 100%;
+    border-radius: 10px;
+    border: black 2px solid;
+    height: 250px;
+    object-fit: cover;
+    background-color: var(--accent-color);
+}
+.products {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0px 20px;
+    overflow: scroll;
+}
+.product {
+    min-width: 90%;
+    max-width: 90%;
+    text-align: center;
+    color: black;
+}
+.our-app {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: black;
+}
+.our-app h2 {
+    margin-left: 20px;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.app-phone img {
+    width: 25vw;
+}
+.app-download img {
+    width: 35vw;
+}
+.app-download {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+footer {
+    text-align: center;
+    color: var(--accent-color);
+    background-color: var(--main-color);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: var(--accent-color) 5px solid;
+}
+footer img {
+    height: 40px;
+}
+.footer-next {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-next p {
+    border-right: var(--accent-color) 1px solid;
+    padding-right: 10px;
+}
