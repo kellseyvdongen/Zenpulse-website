@@ -82,3 +82,25 @@ main img {
 section div {
     flex: 1;
 }
+footer {
+    text-align: center;
+    color: var(--accent-color);
+    background-color: var(--main-color);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: var(--accent-color) 5px solid;
+}
+footer img {
+    height: 40px;
+}
+.footer-next {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-next p {
+    border-right: var(--accent-color) 1px solid;
+    padding-right: 10px;
+}
